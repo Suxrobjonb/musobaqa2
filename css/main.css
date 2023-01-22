@@ -92,11 +92,6 @@ html {
   /* 2 */
 }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
 body {
   margin: 0;
 }
@@ -117,12 +112,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -144,11 +133,6 @@ pre {
   /* 2 */
 }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
 a {
   background-color: transparent;
 }
@@ -194,11 +178,6 @@ samp {
 small {
   font-size: 80%;
 }
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
 sub,
 sup {
   font-size: 75%;
@@ -215,21 +194,10 @@ sup {
   top: -0.5em;
 }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
 img {
   border-style: none;
 }
 
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
 button,
 input,
 optgroup,
@@ -388,10 +356,6 @@ textarea {
   font: inherit;
   /* 2 */
 }
-
-/* Interactive
-   ========================================================================== */
-/*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
@@ -405,18 +369,12 @@ summary {
   display: list-item;
 }
 
-/* Misc
-   ========================================================================== */
-/**
  * Add the correct display in IE 10+.
  */
 template {
   display: none;
 }
 
-/**
- * Add the correct display in IE 10.
- */
 [hidden] {
   display: none;
 }
@@ -424,13 +382,17 @@ template {
 /* GENERAL */
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
+   box-sizing: inherit;
 }
 
 ::-moz-selection {

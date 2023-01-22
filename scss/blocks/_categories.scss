@@ -1,0 +1,33 @@
+.categories__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #07484a;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.categories__left-int {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 18px;
+  width: 288px;
+  height: 55px;
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.categories__left-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+}
